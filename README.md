@@ -21,4 +21,5 @@ root = tk.Tk()
 root.geometry("300250")
 btn = tk.Button(root,text="Нажми меня :`)", command=kl)
 btn.pack()
-root.mainloop()```
+root.mainloop()
+```
