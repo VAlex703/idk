@@ -22,5 +22,3 @@ root.geometry("300250")
 btn = tk.Button(root,text="Нажми меня :`)", command=kl)
 btn.pack()
 root.mainloop()```
-
-<img width="664" height="624" alt="2026-04-09_11-17-38" src="https://github.com/user-attachments/assets/dbfc2c0f-93f8-4c36-b004-db8bf0a83925" />
