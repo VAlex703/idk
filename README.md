@@ -18,7 +18,7 @@ import tkinter as tk
 def kl():
     print("Кнопка нажата")
 root = tk.Tk()
-root.geometry("300250")
+root.geometry("300x400")
 btn = tk.Button(root,text="Нажми меня :`)", command=kl)
 btn.pack()
 root.mainloop()
@@ -28,4 +28,14 @@ root.mainloop()
 ### Определение: 
 Виджет Label — неинтерактивный элемент для отображения текста или изображения.
 
-### Пример кода
+### Пример кода:
+```python
+import tkinter as tk
+def kl():
+    print("Кнопка нажата")
+root = tk.Tk()
+root.geometry("300x500")
+label = tk.Label(root,text="42 братуха", bg="lightblue", fg="darkred")
+label.pack()
+root.mainloop()
+```
